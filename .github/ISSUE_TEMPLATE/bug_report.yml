@@ -1,0 +1,53 @@
+name: Bug Report
+description: Create a report to help us improve the SkyoBlock resource pack.
+labels: "Bug"
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for the help trying to fix a bug in the SkyoBlock server! We hope this helps the end-user experience!
+- type: textarea
+  attributes:
+    label: Describe the bug
+    description: wait something's wrong I can feel it
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How do I make this happen?
+    description: Steps to reproduce this behaviour
+    placeholder: |
+      1. Go in mountain
+      2. Find sneaky goblin
+      3. Right-click
+      4. Dialogue doesn't load
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected behaviour
+    description: What should have happen? again idk im a form
+    placeholder: |
+      Dialogue should load
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Images and Videos
+    description: If applicable, add images to help explain your problem.
+- type: textarea
+  attributes:
+    label: Minecraft Version
+    description: What version of Minecraft are you running?
+    placeholder: "For example: Java or Bedrock"
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: "Minecraft: Bedrock Edition Device/Version"
+    description: "What version of Minecraft Bedrock Edition are you using, and what device(s) does the bug occur on?"
+    placeholder: "For example: 1.18.11, PS5"
+- type: textarea
+  attributes:
+    label: Additional Information
+    description: Add any other bits of information about the problem here
