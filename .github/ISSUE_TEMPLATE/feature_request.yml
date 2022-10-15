@@ -1,0 +1,20 @@
+name: Feature Request
+description: Suggest an idea for the resource pack
+labels: "Feature Request"
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for the help with the SkyoBlock project, we hope this feature request is helpful to the end-user experience.
+- type: textarea
+  attributes:
+    label: What feature do you want to see added?
+    description: Well? WHAT FEATURE DO YOU WANNA SEE? 
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Are there any alternatives?
+    description: List any alternatives you might have tried
+  validations:
+    required: true
